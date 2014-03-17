@@ -1,6 +1,6 @@
 {
   "name": "koa-locals",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Supprots application local variables for templates render in application.",
   "main": "index.js",
   "scripts": {

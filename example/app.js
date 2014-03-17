@@ -26,6 +26,7 @@ render(app, {
 });
 
 app.use(function *() {
+  this.locals.title = 'Kick Koa!';
   yield this.render('index', {
     username: 'fundon'
   });

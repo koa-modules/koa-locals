@@ -11,6 +11,23 @@ Supports application local variables for templates render in application.
 npm install koa-locals
 ```
 
+#### API
+
+```js
+require('koa-locals')(app, locals);
+```
+
+##### this.locals
+Lazily creates a locals object on every request.
+```js
+# get locals
+var locals = ctx.locals;
+
+# set locals
+ctx.locals.app = 'github';
+ctx.locals = {};
+```
+
 #### Example
 
 ```js
@@ -51,6 +68,9 @@ app.use(function *() {
 app.listen(2333);
 ```
 
-#### License
+  
+##### `ctx.response.locals`
+
+### License
 
 MIT
