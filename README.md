@@ -68,8 +68,6 @@ app.use(function *() {
 app.listen(2333);
 ```
 
-  
-##### `ctx.response.locals`
 
 ### License
 
