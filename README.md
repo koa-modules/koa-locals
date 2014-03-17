@@ -50,3 +50,7 @@ app.use(function *() {
 
 app.listen(2333);
 ```
+
+#### License
+
+MIT
