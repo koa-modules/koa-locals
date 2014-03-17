@@ -17,15 +17,15 @@ npm install koa-locals
 require('koa-locals')(app, locals);
 ```
 
-##### this.locals
+##### this.locals or this.response.locals
 Lazily creates a locals object on every request.
 ```js
-# get locals
-var locals = ctx.locals;
+// get locals
+var locals = this.locals;
 
-# set locals
-ctx.locals.app = 'github';
-ctx.locals = {};
+// set locals
+this.locals.app = 'github';
+this.locals = {};
 ```
 
 #### Example
