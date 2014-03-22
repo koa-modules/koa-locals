@@ -1,6 +1,6 @@
 {
   "name": "koa-locals",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Supprots application local variables for templates render in application.",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,9 @@
     "koa": "^0.5.1",
     "koa-swig": "^0.1.1",
     "koa-csrf": "^1.0.1",
-    "supertest": "^0.9.0",
-    "should": "^3.1.3",
-    "mocha": "^1.18.0",
+    "supertest": "^0.10.0",
+    "should": "^3.2.0-beta1",
+    "mocha": "^1.18.2",
     "koa-session": "^2.0.0"
   },
   "repository": {

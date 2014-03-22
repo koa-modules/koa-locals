@@ -2,6 +2,7 @@
 
 Supports application local variables for templates render in application.
 
+  [![Build Status](https://travis-ci.org/fundon/koa-locals.svg)](https://travis-ci.org/fundon/koa-locals)
 
 ### Usage
 
