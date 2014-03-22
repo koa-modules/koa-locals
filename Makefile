@@ -1,3 +1,4 @@
+TESTS = test/*.js
 REPORTER = spec
 TIMEOUT = 5000
 MOCHA_OPTS =
@@ -11,6 +12,7 @@ test: node_modules
 		--reporter $(REPORTER) \
 		--timeout $(TIMEOUT) \
 		--require should \
-		$(MOCHA_OPTS)
+		$(MOCHA_OPTS) \
+		$(TESTS)
 
 .PHONY: test
