@@ -1,6 +1,6 @@
 {
   "name": "koa-locals",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Supprots application local variables for templates render in application.",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,8 @@
   "author": "fundon <cfddream@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "debug": "^0.7.4"
+    "debug": "^0.7.4",
+    "utils-merge": "^1.0.0"
   },
   "devDependencies": {
     "koa": "^0.5.1",

@@ -6,6 +6,7 @@
  */
 
 var debug = require('debug')('koa:locals');
+var mixin = require('utils-merge');
 
 module.exports = function (app, opts) {
 
@@ -26,7 +27,7 @@ module.exports = function (app, opts) {
       return this._locals;
     }
 
-    this._locals = mixin(Object.create(null), app.locals);
+    this._locals = mixin({}, app.locals);
 
     debug('app.ctx.locals %j', this._locals);
 
@@ -38,17 +39,4 @@ module.exports = function (app, opts) {
   });
 
   return app;
-};
-
-/**
- *  Merge object b with object a.
- */
-
-function mixin(a, b) {
-  if (a && b) {
-    for (var key in b) {
-      a[key] = b[key];
-    }
-  }
-  return a;
 };
