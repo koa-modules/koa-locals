@@ -1,8 +1,8 @@
-# koa-locals
+# koa-locals [![Build Status](https://travis-ci.org/koa-modules/koa-locals.svg)](https://travis-ci.org/koa-modules/koa-locals)
 
 Supports application local variables for templates render in application.
 
-  [![Build Status](https://travis-ci.org/fundon/koa-locals.svg)](https://travis-ci.org/fundon/koa-locals)
+  [![NPM](https://nodei.co/npm/koa-locals.png?downloads=true)](https://nodei.co/npm/koa-locals/)
 
 ### Usage
 
