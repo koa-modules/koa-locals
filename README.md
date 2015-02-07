@@ -2,6 +2,8 @@
 
 Supports application local variables for templates render in application.
 
+__Please use `this.state` instead of `this.locals`, Koa added `this.state` start from `0.14.0`__.
+
   [![NPM](https://nodei.co/npm/koa-locals.png?downloads=true)](https://nodei.co/npm/koa-locals/)
 
 ### Usage
